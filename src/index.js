@@ -10,12 +10,17 @@ import {
 } from "react-router-dom";
 import Education from './components/Education';
 import Navbar from './components/Navbar';
+import Projects from './routes/projects';
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App />
   },
+  {
+    path: "/projects",
+    element: <Projects />
+  }
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
