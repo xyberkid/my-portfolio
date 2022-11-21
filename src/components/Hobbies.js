@@ -2,7 +2,7 @@ import React from "react";
 export default function Hobbies(){
     return(
         <div id="hobbie" 
-        class="bg-[#7F669D] h-50 my-6 py-8 rounded-lg border-4">
+        class="bg-[#FCFDF2] h-50 my-6 py-8 rounded-lg border-4">
         <div class="flex justify-center">
           <h3 class="border-4 w-25  border-dashed px-4 font-bold text-md">Hobbies</h3>
         </div>

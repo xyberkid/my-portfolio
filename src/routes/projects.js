@@ -9,7 +9,7 @@ export default function Projects() {
       <div class="p-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-5">
         {/* // <!--Card 1--> */}
         <div class="rounded overflow-hidden shadow-lg">
-          <img class="w-full" src="/https://picsum.photos/100" alt="Mountain" />
+          <img class="w-full" src="https://picsum.photos/100" alt="Mountain" />
           <div class="px-6 py-4">
             <div class="font-bold text-xl mb-2">Mountain</div>
             <p class="text-gray-700 text-base">
@@ -24,7 +24,7 @@ export default function Projects() {
         </div>
         {/* // <!--Card 2--> */}
         <div class="rounded overflow-hidden shadow-lg">
-          <img class="w-full" src="/https://picsum.photos/100" alt="River" />
+          <img class="w-full" src="https://picsum.photos/100" alt="River" />
           <div class="px-6 py-4">
             <div class="font-bold text-xl mb-2">River</div>
             <p class="text-gray-700 text-base">
@@ -40,7 +40,7 @@ export default function Projects() {
 
         {/* // <!--Card 3--> */}
         <div class="rounded overflow-hidden shadow-lg">
-          <img class="w-full" src="/https://picsum.photos/100" alt="Forest" />
+          <img class="w-full" src="https://picsum.photos/100" alt="Forest" />
           <div class="px-6 py-4">
             <div class="font-bold text-xl mb-2">Forest</div>
             <p class="text-gray-700 text-base">

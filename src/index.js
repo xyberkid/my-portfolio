@@ -11,6 +11,7 @@ import {
 import Education from './components/Education';
 import Navbar from './components/Navbar';
 import Projects from './routes/projects';
+import Blog from './routes/blog';
 
 const router = createBrowserRouter([
   {
@@ -20,6 +21,10 @@ const router = createBrowserRouter([
   {
     path: "/projects",
     element: <Projects />
+  },
+  {
+    path: "/blog",
+    element: <Blog />
   }
 ]);
 
