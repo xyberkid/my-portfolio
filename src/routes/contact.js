@@ -1,8 +1,10 @@
 import React from "react";
+import Navbar from "../components/Navbar";
 
 export default function Contact(){
     return(
         <>
+        <Navbar />
         {/* <!-- ====== Contact Section Start --> */}
 <section class="bg-white py-20 lg:py-[120px] overflow-hidden relative z-10">
    <div class="container">
